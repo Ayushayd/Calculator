@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    background-color: aqua;
+}
+
+button {
+    width: 60px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    -webkit-box-shadow: 6px 5px 13px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 5px 13px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 5px 13px -3px rgba(0, 0, 0, 0.75);
+    transition: all 0.5s;
+}
+
+button:active {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 290px;
+    font-size: 21px;
+    margin: 0;
+    padding: 10px 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.text-center {
+    text-align: center;
+    color: darkmagenta;
+    font-size: 40px;
+}
+
+.bg-red {
+    background: red;
+}
+
+.mx.auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
